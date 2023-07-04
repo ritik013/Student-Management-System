@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #111;
+    width: 1500px;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: left;
+    color: #FFF;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+margin-bottom: 10px;
+color: white;
+}
+
+table {
+    
+    width: 95%;
+    border-collapse: collapse;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+th,td {
+    padding: 8px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    color: #fff;
+    text-align: left;
+    border-collapse: collapse;
+    text-align: center;
+}
+button {
+    background-color: white;
+    color: #111;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+    color: #111;
+}
+
+.error {
+    color: red;
+}
+
+#name, #email, #grade, #age, #degree {
+    width: 440px;
+    height: 43px;
+    padding: 0px 10px;
+    background-color: #111;
+    color: solid white;
+    margin-right: 35px;
+    margin-bottom: 21px;
+    border: 1px solid white;
+}
+
+#searchInput{
+    width: 1476px;
+    height: 43px;
+    padding: 0px 10px;
+    background-color: #111;
+    color: solid white;
+    margin-right: 35px;
+    margin-top: 100px;
+    border: 1px solid white;
+    margin-bottom: 25px;
+}
+#addStudentBtn{
+    padding: 14px 170px;
+    background-color: #fff;
+    color: #111;
+    border: none;
+    cursor: pointer;
+}
+
+#addStudentBtn:hover{
+    background-color: green;
+    color: #111;
+}
+Edit{
+    width: 1000px;
+}
